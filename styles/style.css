@@ -1,0 +1,438 @@
+.wrapper {
+    width: 100%;
+}
+.top_menu {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: 23px;
+    left:165px;
+}
+.logo span {
+    font-size: 43px;
+}
+.logo_t1 {
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    color: white;
+}
+.logo_t2 {
+    font-family: 'Ropa Sans', sans-serif;
+    position: absolute;
+    top:10px;
+    left:54px;
+    color: #038c8c;
+}
+.top_button {
+    position: absolute;
+    right: 140px;
+    top:42px;
+    
+}
+.top_button li {
+    display: inline-block;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+    padding: 0 13px;
+    border-right: 1px solid #616161;
+    color: #616161;
+    line-height: 19px;
+}
+.top_button li:last-child {
+   border: none;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+.head_background {
+    position: absolute;
+    width: 100%;
+}
+.circles {
+    position: absolute;
+    width: 451px;
+    height: 451px;
+    top: 50px;
+    left: 200px;
+}
+.circle1 {
+    background: url(../imgs/circle1.png) center center no-repeat;
+    position:absolute;
+    width: 451px;
+    height: 451px;
+}
+.circle2 {
+    background: url(../imgs/circle2.png) center center no-repeat;
+    position:absolute;
+    width: 451px;
+    height: 451px;
+}
+.circle3 {
+    background: url(../imgs/circle3.png) center center no-repeat;
+    position: absolute;
+    width: 451px;
+    height: 451px;
+}
+.iphone {
+    background: url(../imgs/iphone.png) center center no-repeat;
+    position: absolute;
+    width: 451px;
+    height: 451px;
+}
+.app_of_year {
+    position: absolute;
+    right: 40%;
+    top: 170px;
+    width: 170px;
+}
+.icon_earth {
+    background: url(../imgs/icon_earth.png) center center no-repeat;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 0;    
+}
+.text_app {
+    color:#a9e1dd;
+    position: absolute;
+    right: 0;
+    margin-left: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
+}
+.shoecase {
+    position: absolute;
+    right: 25.5%;
+    top: 300px;
+    color:#a9e1dd;
+    font-family: 'Cinzel', serif;
+}
+.shoecase span:first-child {
+    color: white;
+    font-size: 39px;
+}
+.shoecase span:last-child {
+ font-size: 17px;   
+}
+.button_buy {
+    position: absolute;
+    width: 170px;
+    height: 45px;
+    right: 39.5%;
+    top: 400px;
+}
+.back1 {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background: #54d3c3;
+}
+.back2 {
+    position: absolute;
+    left: 0;
+    width: 55px;
+    height: 45px;
+    background: #259d8e;
+}
+.text_buy {
+    position: absolute;
+    right: 8px;
+    top: 9px;
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
+    color: white;
+}
+.icon_buy {
+    background: url(../imgs/icon_buy.png) center center no-repeat;
+    width: 55px;
+    height: 45px;
+}
+
+
+
+.content1 {
+    width: 100%;
+    height: 750px;
+}
+
+.c1_headtext {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 41px;
+    font-family: 'Cinzel', serif;
+    color: #717171;
+    padding-top: 40px;
+}
+
+.c1_text {
+    text-align: center;
+    margin: 0 15%;
+    display: block;
+    width: 70%
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    color: #a7a7a7;
+}
+
+.inner_block {
+    width: 100%;
+}
+.other_part {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.circle4 {
+    background: url(../imgs/content1_circle.png) center center no-repeat;
+    position: absolute;
+    z-index: -1;
+    width: 481px;
+    height: 421px;
+    left: 34.5%;
+    top: 45px;
+}
+.tablet_icon_big {
+    background: url(../imgs/icon_tablet_big.png) center center no-repeat;
+    width: 72px;
+    height: 102px;
+    position: absolute;
+    left: 36%;
+    top:75px;
+}
+.text1 {
+    display: block;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 30.5%;
+    top: 200px;
+    font-family: 'Cinzel', serif;
+}
+.text2 {
+    display: block;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 25%;
+    top: 280px;
+    font-weight: lighter;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: block;
+    border-top: 1px solid #b4b4b4;
+}
+.footer_text {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #686868;
+    font-size: 23px;
+    padding-top: 30px;
+     font-family: 'Saira Condensed', sans-serif;
+}
+
+.content2 {
+    width: 100%;
+    height: 700px;
+}
+
+
+
+.c2_back1 {
+    background: url(../imgs/content2_background.png) left top no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: 100%;
+    position: absolute;
+    position: absolute;
+}
+.c2_back2 {
+     background: url(../imgs/content2_back2.png) right top no-repeat;
+    width: 100%;
+    height: 170px;
+    background-size: 100%;
+    position: absolute;
+    position: absolute;
+}
+.c2_icon_star {
+    background: url(../imgs/icon_star.png) center center no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: url(../imgs/icon_star.png) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+
+.c2_icon_lock {
+    background: url(../imgs/icon_lock.png) center center no-repeat;
+    width:     background: url(../imgs/icon_star.png) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    position: absolute;80px;
+    height: 80px;
+    position: absolute;   
+    top: 40px;
+    right: 290px;
+}
+
+.c2_icon_basket {
+    background: url(../imgs/icon_basket.png) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    position: absolute;   
+    top: 40px;
+    right: 517px;
+}
+
+.c2_icon_apple {
+    background: url(../imgs/icon_apple.png) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    position: absolute;   
+    top: 40px;
+    left: 525px;
+}
+
+.c2_icon_poweroff {
+    background: url(../imgs/icon_power_off.png) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    position: absolute;   
+    top: 40px;
+    left: 300px;
+}
+
+.c2_icon_search {
+    background: url(../imgs/icon_search.png) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    position: absolute;   
+    top: 40px;
+    left: 65px;
+}
+
+.c2_icon_laptop {
+    background: url(../imgs/icon_laptop.png) center center no-repeat;
+    width: 560px;
+    height: 330px;
+    position: absolute;
+    top: 280px;
+    left: 160px;
+}
+
+.c2_otherpart {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.c2_button_buy {
+    position: absolute;
+    width: 170px;
+    height: 45px;
+    right: 36%;
+    top: 450px;
+}
+
+.c2_button_back1 {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background: #54d3c3;
+}
+.c2_button_back2 {
+    position: absolute;
+    left: 0;
+    width: 55px;
+    height: 45px;
+    background: #259d8e;
+}
+
+.c2_text_buy {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
+    color: white;
+}
+
+.c2titletext {
+    position: absolute;
+    font-size: 40px;
+    right: 20.5%;
+    top: 350px;
+    color:#a9e1dd;
+    font-family: 'Cinzel', serif;
+}
+
+.c2subtitletext {
+    position: absolute;
+    font-size: 17px;
+    right: 29.5%;
+    top: 400px;
+    color:#a9e1dd;
+    font-family: 'Cinzel', serif;
+}
+
+.content3 {
+    width: 100%;
+    height: 500px;
+}
+
+.c3_block1 {
+    display: inline-block;
+    width: 56%;
+    float: left;
+    height: 500px;
+    position: relative;
+}
+
+.c3_block2 {
+    display: inline-block;
+    width: 44%;
+    height: 100%;
+    background-color: #49d7b0;
+    position: relative;
+}
+
+.icon_arrows {
+    position: absolute;
+    background: url(../imgs/icon_arrows.png) center center no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.c3_t1 {
+    position: relative;
+    left: 170px;
+    font-family: 'Impact';
+    font-size: 250px;
+    color: #49d7b0;
+}
+
+.c3t2 {
+    position: relative;
+    color: #49d7b0;
+    font-size: 60px;
+    left: 200px;
+}
